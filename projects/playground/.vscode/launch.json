@@ -9,11 +9,11 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceRoot}/target/debug/playground.exe",
-            "args": ["rust build"],
+            "args": ["rust build", "-NoLogo"],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "console": "integratedTerminal",
+            "console": "newExternalWindow",
             "preLaunchTask": "cargo build"
         }
     ]
